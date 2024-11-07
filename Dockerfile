@@ -4,3 +4,4 @@ COPY target/demoForJenkins-0.0.1-SNAPSHOT.jar /app/demoForJenkins.jar
 CMD ["mvn", "clean", "install"]
 ENTRYPOINT ["java","-jar","/app/demoForJenkins.jar"]
 
+
